@@ -1,5 +1,4 @@
 # RateLimiter
-In-Memory-Data-Storage Assignment.
 
 
 We can implement  Rate Limiter by maintaining three variables i.e. "count" and "interval" and "startTime".
