@@ -19,7 +19,7 @@ set the "startTime" to the current time and "count" to 1, and allow the request.
 
 Case3:
 
-If "currentTime – startTime <= interval" and If "count < 10", increment the Count and 
+If "userKey" is present in Redis and  "currentTime – startTime <= interval" and "count < 10", increment the Count and 
 allow the request. If "count >= 10", reject the request with RateLimitExceededException.
 
 
